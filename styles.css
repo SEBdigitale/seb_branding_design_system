@@ -1,0 +1,583 @@
+/* DOM Objects */
+
+html{
+    background: #36323c;
+  }
+
+  section{
+    width: 90%;
+    margin: 20px auto;
+
+  }
+
+ 
+
+ 
+  p{
+   margin:0 0 0 20px;
+    
+  }
+
+  li{
+    margin-left:20px;
+    list-style: square;
+
+  }
+
+ 
+/* Classes*/
+
+  .title{
+    font-family: 'bely display';
+    color:white;
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color: red;
+    margin-top: 30px;
+  }
+
+  .secondaryt{
+    font-family: 'bely display';
+    color:white;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+
+  .img{
+       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+  }
+  .colors{
+    border: 1px solid white;
+    height: 525px;
+  }
+
+  .fonts{
+    border: 1px solid white;
+    height: 300px;
+  }
+
+  .styles{
+    border: 1px solid white;
+    height: 650px;
+
+  }
+
+  .buttons{
+    border: 1px solid white;
+    height: 450px;
+
+  }
+
+  .row {
+    display: flex;
+    height:150px;
+  }
+  
+  .column {
+    flex: 50%;
+    color:aliceblue;
+    padding-left: 10px;
+  }
+
+  .tilden{
+    font-family:'tilden-sans';
+    padding: 0 0 20px 10px;
+  }
+
+  .bely{
+    font-family:'bely-display';
+    padding: 0 0 20px 10px;
+  }
+
+  /* Buttons */
+
+  .button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  /* Buttons  Main Button */
+  
+  .button1 {
+    background-color: red; 
+    color: white; 
+    font-size: 10px;
+    font-family: 'bely-display';
+  }
+  
+  .button1:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .button2 {
+    background-color: red; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button2:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .button3 {
+    background-color: red; 
+    color: white; 
+    font-size: 14px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button3:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .button4 {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button4:hover {
+    background-color: #bb1313;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+}
+  
+  .button5 {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button5:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 18px;
+  }
+
+  /* Secondary Buttons */
+
+
+  .button6 {
+    background-color: #bb1313; 
+    color: white; 
+    font-size: 10px;
+    font-family: 'bely-display';
+  }
+  
+  .button6:hover {
+    background-color: red;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .button7 {
+    background-color: #bb1313; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button7:hover {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .button8 {
+    background-color: #bb1313; 
+    color: white; 
+    font-size: 14px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button8:hover {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .button9 {
+    background-color: #bb1313;
+    color: white;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button9:hover {
+    background-color: red;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+}
+  
+  .button10 {
+    background-color: #bb1313;
+    color: white;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+  }
+
+  .button10:hover {
+    background-color: red;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+}
+
+/* Tertiary Buttons */
+
+
+  .button11 {
+    background-color: #920e0e; 
+    color: white; 
+    font-size: 10px;
+    font-family: 'bely-display';
+  }
+  
+  .button11:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .button12 {
+    background-color: #920e0e; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button12:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .button13 {
+    background-color: #920e0e; 
+    color: white; 
+    font-size: 14px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button13:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .button14 {
+    background-color: #920e0e;
+    color: white;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button14:hover {
+    background-color: #bb1313;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+}
+  
+  .button15 {
+    background-color: #920e0e;
+    color: white;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button15:hover {
+    background-color: #bb1313;
+    color: white;
+    font-size: 18px;
+  }
+
+  /* Main Buttons Grey */
+
+  .button16 {
+    background-color: #7C7885; 
+    color: white; 
+    font-size: 10px;
+    font-family: 'bely-display';
+  }
+  
+  .button16:hover {
+    background-color: #4D4A52;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .button17 {
+    background-color: #7C7885; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button17:hover {
+    background-color: #4D4A52;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .button18 {
+    background-color: #7C7885; 
+    color: white; 
+    font-size: 14px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button18:hover {
+    background-color: #4D4A52;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .button19 {
+    background-color: #7C7885;
+    color: white;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button19:hover {
+    background-color: #4D4A52;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+}
+  
+  .button20 {
+    background-color: #7C7885;
+    color: white;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button20:hover {
+    background-color: #4D4A52;
+    color: white;
+    font-size: 18px;
+  }
+
+  /* Secondary Buttons Grey*/
+
+  .button21 {
+    background-color: #4D4A52; 
+    color: white; 
+    font-size: 10px;
+    font-family: 'bely-display';
+  }
+  
+  .button21:hover {
+    background-color: #1B191E;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .button22 {
+    background-color: #4D4A52; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button22:hover {
+    background-color: #1B191E;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .button23 {
+    background-color: #4D4A52; 
+    color: white; 
+    font-size: 14px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button23:hover {
+    background-color: #1B191E;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .button24 {
+    background-color: #4D4A52;
+    color: white;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button24:hover {
+    background-color: #1B191E;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+}
+  
+  .button25 {
+    background-color: #4D4A52;
+    color: white;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button25:hover {
+    background-color: #1B191E;
+    color: white;
+    font-size: 18px;
+  }
+
+  /* Tertiary Buttons Grey */
+
+
+  .button26 {
+    background-color: #1B191E; 
+    color: white; 
+    font-size: 10px;
+    font-family: 'bely-display';
+  }
+  
+  .button26:hover {
+    background-color: #36323c;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .button27 {
+    background-color: #1B191E; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button27:hover {
+    background-color: #36323c;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .button28 {
+    background-color: #1B191E; 
+    color: white; 
+    font-size: 14px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button28:hover {
+    background-color: #36323c;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .button29 {
+    background-color: #1B191E;
+    color: white;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button29:hover {
+    background-color: #36323c;
+    font-size: 16px;
+    font-family: 'bely-display';
+
+}
+  
+  .button30 {
+    background-color: #1B191E;
+    color: white;
+    font-size: 18px;
+    font-family: 'bely-display';
+
+  }
+  
+  .button30:hover {
+    background-color: #36323c;
+    color: white;
+    font-size: 18px;
+  }
+
+
+  /* END Buttons */
+
+/* UL Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    font-family:'tilden-sans';
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: red;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+
+ 
